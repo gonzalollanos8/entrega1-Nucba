@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <form action="save">
+            <div class="nombres">
+                <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombres" id="nombre"><br>
+                <label for="apellido">Apellido:</label> 
+                    <input type="text" name="nombres" id="apellido" >
+            </div><br>
+
+
+            <div class="modalidades">
+                <p>Modalidad de cursada:</p>
+                
+                <div>
+                <input type="radio" name="modalidades" id="onDemand">
+                <label for="onDemand">On-Demand</label>
+                </div>
+                
+                <div>
+                <input type="radio" name="modalidades" id="enVivo">
+                <label for="enVivo">En vivo </label><br>
+                </div>
+            </div><br>
+
+            <div class="correoContacto">
+                <label for="correo">Correo:</label> <input type="email" name="correoContacto" id="email"> <br>
+            
+                <input type="checkbox" name="correoContacto" id="newslatter"><label for="newslatter">Deseo recibir informacion de los nuevos posteos de la plataforma de Nucba</label> <br>
+                <input type="checkbox" name="correoContacto" id="terminosCondiciones"><label for="terminosCondiciones">Declaro que lei los terminos y condiciones y estoy listo para convertirme en desarrollador web Full Stack</label> <br>
+            </div>
+            <input type="button" value="enviar">
+    </form><br>
+    <br>
+    <footer>
+        <a href="/ejecicio1/index.html">Ejercicio 1</a><br>
+        <a href="/ejecicio1/programacionFS.html">Ejercicio 2</a>
+        <p>Ejercicio 3</p>
+    </footer>
+</body>
+</html>
